@@ -5,39 +5,109 @@
 	<title>Document</title>
 </head>
 <body>
-	<header>
+	<header class="page-header">
 		<div class="container">
-			<img src="http://placehold.it/60px*50px" alt="" class="header logo_img left">
-			<h1 class="header logo_name left"><span>СпецТех</span>24</h1>
-			<div class="container">
-				<nav class="header main-nav right">
-					<ul>
-						<li><a href="" class="header main-nav">О компании</a></li>
-						<li><a href="" class="header main-nav">Каталог</a></li>
-						<li><a href="" class="header main-nav">Портфолио</a></li>
-						<li><a href="" class="header main-nav">Контакты</a></li>
-						<li><a href="" class="header main-nav call">Заказать звонок</a></li>
-					</ul>
-				</nav>
+			<a href="" class="logo">
+			<img src="http://placehold.it/60px*50px" alt="" class="page-header__logo left">
+				<p class="logo_name left"><span>СпецТех</span>24</p></a>
+			
+			<div class="page-nav right">
+					<nav class="right">
+						<ul class="nav-list">
+							<li class="page-nav__item"><a href="" class="page-nav__link">О компании</a></li>
+							<li class="page-nav__item"><a href="" class="page-nav__link">Каталог</a></li>
+							<li class="page-nav__item"><a href="" class="page-nav__link">Портфолио</a></li>
+							<li class="page-nav__item"><a href="" class="page-nav__link">Контакты</a></li>
+							<li class="page-nav__item page-nav-item-call"><a href="" class="nav call">Заказать звонок</a></li>
+						</ul>
+					</nav>
+			</div>
 			</div>
 		</div>
 	</header>
 	<main>
 		<div class="subheader">
-			<div class="container subheader">
-				<p class="title_subheader left">Портфолио</p>
-				<ul class="subheader_menu right">
-					<li><a class="subheader_menu"href="">Все работы</a></li>
-					<li><a class="subheader_menu"href="">Строительство</a></li>
-					<li><a class="subheader_menu"href="">Демонтаж</a></li>
-					<li><a class="subheader_menu"href="">Земляные работы</a></li>
-					<li><a class="subheader_menu"href="">Перевозка</a></li>
+			<div class="container">
+				<p class="subheader__title left">Портфолио</p>
+				<ul class="subheader__list right">
+					<li><a class="subheader_menu-item"href="">Все работы</a></li>
+					<li><a class="subheader_menu-item"href="">Строительство</a></li>
+					<li><a class="subheader_menu-item"href="">Демонтаж</a></li>
+					<li><a class="subheader_menu-item"href="">Земляные работы</a></li>
+					<li><a class="subheader_menu-item"href="">Перевозка</a></li>
 				</ul>
 			</div>
 		</div>
-		<div class="container image-of-wooden-house">
-			
+		<div class="houses">
+			<div class="container">
+				<div class="houses wood">
+					<p class="houses__title">Строительство жилого дома дома в деревушке на севере холма</p>
+					<h1 class="houses_description">Спецтех24 - это сеть пунктов аренды спецтехники Cat, оборудования и специализированных инструментов для выполнения большинства видов работ.</h1>
+					<a href="" class="details">Подробнее</a>
+				</div>
+				<div class="houses apartment">
+					<p class="houses__title">Строительство жилого дома дома в деревушке на севере холма</p>
+					<h1 class="houses_description">Спецтех24 - это сеть пунктов аренды спецтехники Cat, оборудования и специализированных инструментов для выполнения большинства видов работ.</h1>
+					<a href="" class="details">Подробнее</a>
+				</div>
+				<div class="houses private">
+					<p class="houses__title">Строительство жилого дома дома в деревушке на севере холма</p>
+					<h1 class="houses_description">Спецтех24 - это сеть пунктов аренды спецтехники Cat, оборудования и специализированных инструментов для выполнения большинства видов работ.</h1>
+					<a href="" class="details">Подробнее</a>
+				</div>
+				<div class="consult">
+				<div class="container">
+					<p class="consult_title left">Закажите бесплатную консультацию по подбору подходящей техники</p>
+					<form action="#" class="consult_form left">
+						<input type="text" placeholder="Как вас зовут?">
+						<input type="text" placeholder="Номер для связи">
+						<input type="text" placeholder="Выберите дату">
+						<input type="submit" value="Заказать консультацию" placeholder="Заказать консультацию">
+					</form>
+				</div>
+				</div>
+				<div class="advantages left">
+				<div class="container">
+					<div class="advantages column-fourth tools">
+						<img src="http://placehold.it/60px*60px" alt="">
+						<p>Техника проходит обязательное обслуживанеи перед каждым выездом</p>
+					</div>
+					<div class="advantages column-fourth worker">
+						<img src="http://placehold.it/60px*60px" alt="">
+						<p>Все машины оборудованы спец. сигналами для предупреждения аварий</p>
+					</div>
+					<div class="advantages column-fourth border">
+						<img src="http://placehold.it/60px*60px" alt="">
+						<p>Привезем модные строительные ограждения к каждому заказу от 20 000</p>
+					</div>
+					<div class="advantages column-fourth man">
+						<img src="http://placehold.it/60px*60px" alt="">
+						<p>С техникой приедут квалифицированные операторы и водители</p>
+					</div>
+				</div>
+				</div>
+
+				</div>
 		</div>
 	</main>
+	<footer class="page-footer">
+		<div class="container">
+			<div class="logo">
+			<img src="http://placehold.it/60px*50px" alt="" class="page-footer__logo left">
+				<h1 class="logo_name left"><span>СпецТех</span>24</h1>
+			</div>
+			<div class="page-nav">
+					<nav class="right">
+						<ul class="nav-list">
+							<li class="page-nav__item"><a href="" class="page-nav__link">О компании</a></li>
+							<li class="page-nav__item"><a href="" class="page-nav__link">Каталог</a></li>
+							<li class="page-nav__item"><a href="" class="page-nav__link">Портфолио</a></li>
+							<li class="page-nav__item"><a href="" class="page-nav__link">Контакты</a></li>
+							<li class="page-nav__item page-nav-item-call"><a href="" class="nav call">Заказать звонок</a></li>
+						</ul>
+					</nav>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
