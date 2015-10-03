@@ -60,7 +60,7 @@ div{
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif;
 }
-.page-nav-item-call{
+.page-nav-item-call:hover{
 	background-color: #ffe184;
 	width: 175px;
 	height: 45px;
