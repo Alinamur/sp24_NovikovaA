@@ -69,6 +69,14 @@ div{
 	padding-bottom: 17px;
 	box-sizing: border-box;
 }
+.page-nav-item-call{
+	width: 175px;
+	height: 45px;
+	text-align: center;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	box-sizing: border-box;
+}
 a.nav{
 	text-decoration: none;
 	color: #000;
