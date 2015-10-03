@@ -49,8 +49,13 @@ body {
 .advantages>.container{
 	height: 125px;
 	background-color: #fff;
+	margin: 0 auto;
 }
-
+.advantages-item{
+	width: 225px;
+	display: inline-block;
+	text-align: center;
+}
 .specail-offers>.container{
 	height: 400px;
 	background-color: #f3f3f3;
