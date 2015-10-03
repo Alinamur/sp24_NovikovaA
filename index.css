@@ -21,7 +21,7 @@ body {
 }
 
 /* HEADER*/
-.page-header>.container{
+.page-header{
 	height: 75px;
 	background-color: #ffcd34;
 }
@@ -36,17 +36,17 @@ body {
 	background-color: yellow;
 }
 
-.promo>.container{
+.promo{
 	height: 460px;
 	background-color: #576c7f;
 }
 
-.consult>.container{
+.consult{
 	height: 175px;
 	background-color: #202e3b;
 }
 
-.advantages>.container{
+.advantages{
 	height: 125px;
 	background-color: #fff;
 	margin: 0 auto;
@@ -56,17 +56,17 @@ body {
 	display: inline-block;
 	text-align: center;
 }
-.specail-offers>.container{
+.specail-offers{
 	height: 400px;
 	background-color: #f3f3f3;
 }
 
-.facts-and-reviews>.container{
+.facts-and-reviews{
 	height: 435px;
 	background-color: #202e3b;
 }
 
-.map>.container{
+.map>{
 	height: 500px;
 	background-color: #aacbd9;
 }
