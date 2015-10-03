@@ -1,0 +1,14 @@
+
+@font-face {
+    font-family: 'Oranienbaum';
+    src: url('../fonts/oranienbaum.eot');
+    src: url('../fonts/oranienbaum.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oranienbaum.woff') format('woff'),
+         url('../fonts/oranienbaum.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1{
+	font-family: 'Oranienbaum', serif;
+}
