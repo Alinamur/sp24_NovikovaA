@@ -31,10 +31,12 @@ div{
 .page-header__logo{
 	vertical-align: middle;
 	padding-right: 15px;
+	padding-top: 20px;
 
 }
 .logo{
-	
+	text-decoration: none;
+	color: #000;	
 }
 .logo__name{
 	vertical-align: middle;
@@ -47,8 +49,30 @@ div{
 }
 
 /* PAGE-NAV*/
-
-
+.page-nav__item{
+	display: inline-block;
+}
+.page-nav__link{
+	text-decoration: none;
+	color: #000;
+	padding-right: 35px;
+	padding-top: 32px;
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+}
+.page-nav-item-call{
+	background-color: #ffe184;
+	width: 175px;
+	height: 45px;
+	text-align: center;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	box-sizing: border-box;
+}
+a.nav{
+	text-decoration: none;
+	color: #000;
+}
 /* MAIN*/
 .gradient_yellow-black{
 	height: 15px;
