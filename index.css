@@ -9,6 +9,9 @@ body {
 	padding: 0;
 	min-width: 1200px;
 }
+div{
+	display: block;
+}
 
 /* LAYOUT*/
 
@@ -25,8 +28,14 @@ body {
 	height: 75px;
 	background-color: #ffcd34;
 }
+.page-header__logo{
+	vertical-align: middle;
+	padding-right: 15px;
 
-
+}
+.logo__name{
+	vertical-align: middle;
+}
 /* PAGE-NAV*/
 
 
@@ -66,7 +75,7 @@ body {
 	background-color: #202e3b;
 }
 
-.map>{
+.map{
 	height: 500px;
 	background-color: #aacbd9;
 }
