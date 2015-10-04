@@ -8,6 +8,7 @@ body {
 	margin: 0;
 	padding: 0;
 	min-width: 1200px;
+	font-family: 'PT Sans', sans-serif;
 }
 div{
 	display: block;
@@ -90,6 +91,8 @@ a.nav{
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .promo_motto{
 	font-family: 'PT Sans', sans-serif;
@@ -216,6 +219,7 @@ a.nav{
 }
 .wood{
 	height: 500px;
+	min-width: 1200px;
 }
 .apartment{
 	height: 500px;
@@ -228,6 +232,25 @@ a.nav{
 	background-image: url(img/subheader_portfolio.jpg);
 	background-position: center bottom;
 	background-repeat: no-repeat;
+}
+.subheader_portfolio__title{
+	color: #ffcd34;
+	font-size: 24px;
+	font-weight: normal;
+	padding-top: 20px;
+
+}
+.subheader_portfolio__list{
+	
+}
+.subheader_portfolio__item{
+	padding-top: 33px;
+ 	display: inline-block;
+}
+.subheader_portfolio__link{
+ 	text-decoration: underline;
+ 	color: #fff;
+ 	padding: 0 15px;
 }
 
 
