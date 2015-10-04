@@ -80,7 +80,10 @@ a.nav{
 	height: 15px;
 	background-color: yellow;
 }
-
+.black-stripe{
+	background-color: #000;
+	height: 10px;
+}
 .promo{
 	height: 460px;
 	background-image: url(img/index_promo.jpg);
@@ -211,6 +214,23 @@ a.nav{
 	height: 500px;
 	background-color: #aacbd9;
 }
+.wood{
+	height: 500px;
+}
+.apartment{
+	height: 500px;
+}
+.private{
+	height: 500px;
+}
+.subheader_portfolio{
+	height: 105px;
+	background-image: url(img/subheader_portfolio.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+
 /* FOOTER*/
 
 .page-footer{
