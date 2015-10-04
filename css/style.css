@@ -30,12 +30,11 @@ div{
 .page-header__logo{
 	vertical-align: middle;
 	padding-right: 15px;
-	padding-top: 20px;
-
 }
 .logo{
 	text-decoration: none;
-	color: #000;	
+	color: #000;
+	padding-top: 20px;	
 }
 .logo__name{
 	vertical-align: middle;
@@ -50,25 +49,37 @@ div{
 /* PAGE-NAV*/
 .page-nav__item{
 	display: inline-block;
+	padding-top: 25px;
 }
 .page-nav__link{
 	text-decoration: none;
 	color: #000;
 	padding-right: 35px;
-	padding-top: 32px;
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}
+.page-nav__link:hover{
+	text-decoration: none;
+	color: #000;
+	padding-right: 35px;
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	color: #ffe184;
 }
 .page-nav-item-call:hover{
 	background-color: #ffe184;
 	text-align: center;
 	padding: 10px 15px;
 	box-sizing: border-box;
+	font-weight: bold;
 }
 .page-nav-item-call{
 	text-align: center;
 	padding: 10px 15px;
 	box-sizing: border-box;
+	font-weight: bold;
 }
 a.nav{
 	text-decoration: none;
@@ -122,17 +133,17 @@ a.nav{
 	padding: 0 15px;
 }
 
-
-
 .consult{
 	height: 175px;
 	background-color: #202e3b;
+	padding-top: 30px;
 }
 .consult_title{
 	color: #ffcd34;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: normal;
 	font-size: 24px;
+	padding-bottom: 30px;
 }
 .consult_form input{
 	border: 1px solid #ffcd34;
@@ -206,7 +217,7 @@ a.nav{
 
 }
 .special-offers__table{
-	padding-left: 15px;
+	padding-left: 25px;
 }
 .table_special-offers__title{
 	font-weight: bold;
@@ -225,6 +236,65 @@ a.nav{
 .facts-and-reviews{
 	height: 435px;
 	background-color: #202e3b;
+}
+.special-offers_tbody td{
+	padding: 10px 100px 10px 10px;
+	border: 0px solid #000;
+}
+.numbers__facts-and-rewiews{
+	
+}
+.title_numbers{
+	font-size: 26px;
+	font-weight: normal;
+	padding: 40px 0;
+	color: #fff;
+}
+.title_numbers span{
+	font-weight: bold;
+}
+.number span{
+	color: #f1b132;
+	font-size: 38px;
+	font-weight: bold;
+	padding-right: 20px;
+}
+.number{
+	color: #9e9e9e;
+	font-size: 18px;
+	font-weight: bold;
+}
+.reviews{
+	width: 610px;
+}
+.title_reviews{
+	font-size: 26px;
+	font-weight: bold;
+	color: #fff;
+	padding: 40px 0;
+}
+.first-review{
+	display: inline;
+	width: 610px;
+	text-align: left;
+	vertical-align: middle;
+}
+.clients{
+	font-weight: normal;
+	font-size: 18px;
+	font-style: italic;
+	color: #fff;
+	width: 450px;
+}
+.person{
+	font-weight: bold;
+	font-size: 18px;
+	color: #f1b132;
+}
+.second-review{
+	display: inline-block;
+	width: 610px;
+	text-align: left;
 }
 
 .map{
