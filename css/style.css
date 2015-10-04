@@ -70,31 +70,27 @@ div{
 	padding-top: 25px;
 }
 .page-nav__link{
+	border: 0px solid #000;
+	padding: 10px 30px;
 	text-decoration: none;
 	color: #000;
-	padding-right: 35px;
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: bold;
 }
 .page-nav__link:hover{
+	background-color: #ffe184;
 	text-decoration: none;
 	color: #000;
-	padding-right: 35px;
+	padding: 10px 30px;
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: bold;
-	color: #ffe184;
 }
-.page-nav-item-call:hover{
-	background-color: #ffe184;
-	text-align: center;
-	padding: 10px 15px;
-	box-sizing: border-box;
-	font-weight: bold;
-}
+
 .page-nav-item-call{
 	text-align: center;
+	background-color: #ffe184;
 	padding: 10px 15px;
 	box-sizing: border-box;
 	font-weight: bold;
