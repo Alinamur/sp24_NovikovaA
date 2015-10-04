@@ -439,9 +439,73 @@ a.nav{
 }
 .catalog{
 	height: 965px;
+	background-color: #f3f3f3;
 }
+.product-card{
+	display: inline-block;
+	height: 400px;
+	width: 300px;
+	background-color: #fff;
+	box-sizing: border-box;
+	margin-right: 15px;
+}
+.product-card__name{
+	font-weight: bold;
+	font-size: 21px;
+	padding: 25px 0 0 30px;
+	text-align: left;
+}
+.product-card__pic{
+	margin: 35px;
+	margin-bottom: 25px;
+}
+.product-card__price{
+	padding-bottom: 25px;
+	font-weight: bold;
+	font-size: 22px;
+}
+.product-card__month{
+	font-size: 18px;
+}
+.old-price{
+	text-decoration: line-through;
+	color: #d12222;
+	font-weight: bold;
+	font-size: 22px;
+	padding: 15px;
+}
+.btn-rent{
+	font-size: 17px;
+	font-weight: normal;
+	color: #fff;
+	background-color: #f3c331;
+	padding: 10px;
+	text-decoration: none;
+}
+.btn-details{
+	font-size: 17px;
+	font-weight: normal;
+	color: #fff;
+	background-color: #354b60;
+	padding: 10px;
+	text-decoration: none;	
+}
+
 .sales{
 	height: 535px;
+	background-image: url(../img/sales_catalog.jpg);
+	background-position: center;
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.sales__title{
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 28px;
+	color: #fff;
+	text-align: left;
+	padding: 40px 0 30px 0;
 }
 
 /* FOOTER*/
