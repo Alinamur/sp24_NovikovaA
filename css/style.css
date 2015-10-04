@@ -24,7 +24,7 @@ div{
 
 .right{float: right;}
 .left{float: left;}
-.text-center{text-align: center;} 
+.center{text-align: center;} 
 .container{
 	width: 960px;
 	margin: 0 auto;
@@ -412,6 +412,37 @@ a.nav{
 	padding-left: 5px;
 }
 
+.subheader_technics{
+	height: 190px;
+	background-image: url(../img/subheader_portfolio.jpg);
+	background-position: center;
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.subheader_technics__title{
+	color: #ffcd34;
+	font-size: 26px;
+	font-weight: normal;
+}
+.subheader_technics__text{
+	font-size-adjust: 16px;
+	line-height: 20px;
+	color: #fff;
+	width: 600px;
+}
+.nav-call{
+
+}
+.nav-call__text{
+
+}
+.catalog{
+	height: 965px;
+}
+.sales{
+	height: 535px;
+}
 
 /* FOOTER*/
 
