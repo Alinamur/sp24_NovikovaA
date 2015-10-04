@@ -85,7 +85,7 @@ a.nav{
 }
 .promo{
 	height: 460px;
-	background-image: url(img/index_promo.jpg);
+	background-image: url(../img/index_promo.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: center;
@@ -204,6 +204,17 @@ a.nav{
 	color: #202e3b;
 	padding-top: 25px;
 
+}
+.special-offers__table{
+	padding-left: 15px;
+}
+.table_special-offers__title{
+	font-weight: bold;
+	font-size: 26px;
+	padding-top: 40px;
+}
+.special-offers_tbody{
+	padding-top: 35px;
 }
 
 .facts-and-reviews{
