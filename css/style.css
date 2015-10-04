@@ -6,11 +6,19 @@
 	padding: 0;
 	font-family: 'PT Sans', sans-serif;
 }
+
+
+
+
 /* BODY*/
 body { min-width: 1200px;}
 div{
 	display: block;
 }
+
+
+
+
 
 /* LAYOUT*/
 
@@ -21,6 +29,11 @@ div{
 	width: 960px;
 	margin: 0 auto;
 }
+
+
+
+
+
 
 /* HEADER*/
 .page-header{
@@ -45,6 +58,11 @@ div{
 .logo__name span{
 	font-weight: bold;
 }
+
+
+
+
+
 
 /* PAGE-NAV*/
 .page-nav__item{
@@ -85,6 +103,13 @@ a.nav{
 	text-decoration: none;
 	color: #000;
 }
+
+
+
+
+
+
+
 /* MAIN*/
 .gradient_yellow-black{
 	height: 15px;
@@ -214,7 +239,6 @@ a.nav{
 	text-decoration: underline;
 	color: #202e3b;
 	padding-top: 25px;
-
 }
 .special-offers__table{
 	padding-left: 25px;
@@ -240,9 +264,6 @@ a.nav{
 .special-offers_tbody td{
 	padding: 10px 100px 10px 10px;
 	border: 0px solid #000;
-}
-.numbers__facts-and-rewiews{
-	
 }
 .title_numbers{
 	font-size: 26px;
@@ -280,6 +301,7 @@ a.nav{
 	vertical-align: middle;
 }
 .clients{
+	padding-left: 25px;
 	font-weight: normal;
 	font-size: 18px;
 	font-style: italic;
@@ -287,6 +309,7 @@ a.nav{
 	width: 450px;
 }
 .person{
+	padding: 10px 0 25px 25px;
 	font-weight: bold;
 	font-size: 18px;
 	color: #f1b132;
@@ -302,20 +325,11 @@ a.nav{
 	text-align: center;
 
 }
-.wood{
-	height: 500px;
-	min-width: 1200px;
-}
-.apartment{
-	height: 500px;
-}
-.private{
-	height: 500px;
-}
+
 .subheader_portfolio{
 	height: 105px;
-	background-image: url(img/subheader_portfolio.jpg);
-	bbackground-position: center;
+	background-image: url(../img/subheader_portfolio.jpg);
+	background-position: center;
 	text-align: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -324,14 +338,10 @@ a.nav{
 	color: #ffcd34;
 	font-size: 24px;
 	font-weight: normal;
-	padding-top: 20px;
-
-}
-.subheader_portfolio__list{
-	
+	padding-top: 35px;
 }
 .subheader_portfolio__item{
-	padding-top: 33px;
+	padding-top: 40px;
  	display: inline-block;
 }
 .subheader_portfolio__link{
@@ -339,6 +349,35 @@ a.nav{
  	color: #fff;
  	padding: 0 15px;
 }
+
+.wood{
+	height: 500px;
+	background-image: url(../img/wood_portfolio.jpg);
+	background-position: center;
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.apartment{
+	height: 500px;
+	background-image: url(../img/apartment_portfolio.jpg);
+	background-position: center;
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.private{
+	height: 500px;
+	background-image: url(../img/private_portfolio.jpg);
+	background-position: center;
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
 
 
 /* FOOTER*/
