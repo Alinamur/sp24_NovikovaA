@@ -216,7 +216,12 @@ a.nav{
 .special-offers_tbody{
 	padding-top: 35px;
 }
-
+.special-offers_tbody tr:nth-child(odd){
+	background-color: #fff;
+}
+.special-offers_tbody tr:first-child{
+	background-color: #dfdfdf;
+}
 .facts-and-reviews{
 	height: 435px;
 	background-color: #202e3b;
@@ -224,7 +229,8 @@ a.nav{
 
 .map{
 	height: 500px;
-	background-color: #aacbd9;
+	text-align: center;
+
 }
 .wood{
 	height: 500px;
