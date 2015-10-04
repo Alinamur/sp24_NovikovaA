@@ -62,19 +62,13 @@ div{
 }
 .page-nav-item-call:hover{
 	background-color: #ffe184;
-	width: 175px;
-	height: 45px;
 	text-align: center;
-	padding-top: 17px;
-	padding-bottom: 17px;
+	padding: 10px 15px;
 	box-sizing: border-box;
 }
 .page-nav-item-call{
-	width: 175px;
-	height: 45px;
 	text-align: center;
-	padding-top: 17px;
-	padding-bottom: 17px;
+	padding: 10px 15px;
 	box-sizing: border-box;
 }
 a.nav{
@@ -89,12 +83,74 @@ a.nav{
 
 .promo{
 	height: 460px;
-	background-color: #576c7f;
+	background-image: url(img/index_promo.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
 }
+.promo_motto{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 44px;
+	font-weight: bold;
+	padding-top: 120px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.promo_info{
+	padding: 0 0 35px 0;
+	width: 615px;
+	margin: 0 auto;
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+	color: #fff;
+	font-weight: normal;
+}
+.promo_btn{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'PT Sans', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid #ffcd34;
+	padding: 15px 20px;
+}
+.arrow{
+	padding: 0 15px;
+}
+
+
 
 .consult{
 	height: 175px;
 	background-color: #202e3b;
+}
+.consult_title{
+	color: #ffcd34;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+}
+.consult_form input{
+	border: 1px solid #ffcd34;
+	background-color: #202e3b;
+	padding: 15px 20px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+.consult_form input:last-child{
+	border: 1px solid #ffcd34;
+	background-color: #ffcd34;
+	padding: 13px 20px;
+	color: #202e3b;
+	font-size: 18px;
+}
+.consult_form input:last-child{
+	border: 1px solid #ffcd34;
+	background-color: #ffcd34;
+	padding: 13px 20px;
+	color: #202e3b;
+	font-size: 18px;
 }
 
 .advantages{
@@ -106,10 +162,42 @@ a.nav{
 	width: 225px;
 	display: inline-block;
 	text-align: center;
+	vertical-align: text-bottom;
 }
-.specail-offers{
+.advantages-item__img{
+	padding: 45px 0 15px;
+}
+.advantages_text{
+	width: 160px;
+	font-size: 13px;
+	font-weight: normal;
+	font-family: 'PT Sans', sans-serif;
+	text-align: left;
+	padding-top: 25px;
+}
+
+.special-offers{
 	height: 400px;
 	background-color: #f3f3f3;
+}
+.title_special-offers{
+	font-size: 18px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}
+.menu_special-offers{
+	list-style-type: none;
+	padding-left: 0;
+	line-height: 35px;
+}
+.menu_special-offers__link{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #202e3b;
+	padding-top: 25px;
+
 }
 
 .facts-and-reviews{
@@ -126,4 +214,31 @@ a.nav{
 .page-footer{
 	height: 75px;
 	background-color: #202e3b;
+}
+
+.page-footer__logo{
+	vertical-align: middle;
+	padding-right: 15px;
+	padding-top: 20px;
+
+}
+.logo{
+	text-decoration: none;
+	color: #000;	
+}
+.page-footer__logo_name{
+	vertical-align: middle;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	color: #ffcd34;
+}	
+.page-footer__logo_name span{
+	font-weight: bold;
+}
+.white{
+	color: #f4f4f4;
+}
+.nav>.call>.yellow{
+	color: #d2ad35;
 }
