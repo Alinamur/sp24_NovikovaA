@@ -180,10 +180,12 @@ a.nav{
 	height: 400px;
 	background-color: #f3f3f3;
 }
+
 .title_special-offers{
 	font-size: 18px;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: bold;
+	padding-top: 45px;
 }
 .menu_special-offers{
 	list-style-type: none;
