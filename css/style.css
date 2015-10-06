@@ -569,7 +569,7 @@ background-repeat: repeat-x;
 
 .location{
 	height: 486px;
-	display: inline;
+	display: block;
 }
 .location_map{
 	height: 395px;
@@ -578,14 +578,32 @@ background-repeat: repeat-x;
 	padding-right: 22px;
 	float: left;
 }
-.telephone{
+.text-left{
 	float: right;
+	width: 300px;
+}
+.telephone{
+	float: left;
+	padding-top: 40px;
+	display: block;
+	font-weight: bold;
+	font-size: 18px;
+	padding-bottom: 22px;
 }
 .mail{
-	float: right;
+	float: left;
+	display: block;
+	font-weight: bold;
+	font-size: 18px;
+	padding-bottom: 25px;
 }
 .contacts__consult{
-	float: right;
+	width: 250px;
+	display: block;
+	float: left;
+	font-size: 16px;
+	font-weight: normal;
+	padding-bottom: 16px;
 }
 .contacts_order input{
 	display: block;
@@ -593,8 +611,17 @@ background-repeat: repeat-x;
 	margin-bottom: 10px;
 	width: 280px;
 }
+.contacts_order{
+	float: right;
+}
 .contacts_order__description{
 	height: 95px;
+}
+.contacts_order-btn{
+	width: 300px;
+	height: 45px;
+	font-weight: normal;
+	font-size: 16px;
 }
 .words{
 	height: 425px;
