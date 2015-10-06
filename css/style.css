@@ -594,6 +594,7 @@ background-repeat: repeat-x;
 	float: left;
 	display: block;
 	font-weight: bold;
+	padding-top: 60px;
 	font-size: 18px;
 	padding-bottom: 25px;
 }
@@ -618,10 +619,11 @@ background-repeat: repeat-x;
 	height: 95px;
 }
 .contacts_order-btn{
-	width: 300px;
-	height: 45px;
 	font-weight: normal;
 	font-size: 16px;
+	background-color: #354b60;
+	padding: 17px 57px;	
+	margin-top: 18px;
 }
 .words{
 	height: 425px;
