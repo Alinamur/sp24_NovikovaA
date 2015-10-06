@@ -532,6 +532,7 @@ background-repeat: repeat-x;
 
 
 .subheader_contacts{
+	position: relative;
 	height: 105px;
 	background-image: url(../img/subheader_contacts.jpg);
 	background-position: center;
@@ -553,13 +554,16 @@ background-repeat: repeat-x;
 	font-size: 16px;
 }
 .nav-call{
+	position: absolute;
+	content: "";
+	top: 30px;
+	right: 195px;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 18px;
 	color: #000;
 	background-color: #ffcd34;
 	padding: 15px 21px;
-	margin-top: -40px;
 }
 
 .location{
