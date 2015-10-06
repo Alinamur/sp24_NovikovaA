@@ -537,14 +537,17 @@ background-repeat: repeat-x;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	vertical-align: top;
 }
 
 .subheader_contacts__title{
 	color: #ffcd34;
 	font-weight: normal;
 	font-size: 26px;
+	padding-top: 40px;
 }
 .subheader_contacts__text{
+	padding-top: 48px;
 	color: #fff;
 	font-weight: normal;
 	font-size: 16px;
@@ -556,6 +559,7 @@ background-repeat: repeat-x;
 	color: #000;
 	background-color: #ffcd34;
 	padding: 15px 21px;
+	margin-top: -40px;
 }
 
 .location{
