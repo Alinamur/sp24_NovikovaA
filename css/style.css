@@ -146,7 +146,6 @@ background-repeat: repeat-x;
 .promo_btn{
 	font-size: 18px;
 	font-weight: bold;
-	font-family: 'PT Sans', sans-serif;
 	text-decoration: none;
 	color: #fff;
 	border: 2px solid #ffcd34;
@@ -536,7 +535,6 @@ background-repeat: repeat-x;
 	height: 105px;
 	background-image: url(../img/subheader_contacts.jpg);
 	background-position: center;
-	text-align: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -552,18 +550,42 @@ background-repeat: repeat-x;
 	font-size: 16px;
 }
 .nav-call{
-	width: 240px;
-	height: 45px;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 18px;
 	color: #000;
 	background-color: #ffcd34;
-	text-align: right;
+	padding: 15px 21px;
 }
 
 .location{
 	height: 486px;
+	display: inline;
+}
+.location_map{
+	height: 395px;
+	width: 620px;
+	padding-top: 40px;
+	padding-right: 22px;
+	float: left;
+}
+.telephone{
+	float: right;
+}
+.mail{
+	float: right;
+}
+.contacts__consult{
+	float: right;
+}
+.contacts_order input{
+	display: block;
+	padding: 13px;
+	margin-bottom: 10px;
+	width: 280px;
+}
+.contacts_order__description{
+	height: 95px;
 }
 .words{
 	height: 425px;
