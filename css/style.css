@@ -582,9 +582,9 @@ background-repeat: repeat-x;
 .text-left{
 	float: right;
 	width: 300px;
+	text-align: left;
 }
 .telephone{
-	float: left;
 	padding-top: 40px;
 	display: block;
 	font-weight: bold;
@@ -592,10 +592,8 @@ background-repeat: repeat-x;
 	padding-bottom: 22px;
 }
 .mail{
-	float: left;
 	display: block;
 	font-weight: bold;
-	padding-top: 60px;
 	font-size: 18px;
 	padding-bottom: 25px;
 }
