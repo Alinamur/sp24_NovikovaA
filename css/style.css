@@ -570,6 +570,7 @@ background-repeat: repeat-x;
 .location{
 	height: 486px;
 	display: block;
+	background-color: #f3f3f3;
 }
 .location_map{
 	height: 395px;
@@ -627,6 +628,34 @@ background-repeat: repeat-x;
 }
 .words{
 	height: 425px;
+}
+.words__title{
+	font-weight: bold;
+	font-size: 26px;
+	color: #202e3b;
+	padding-bottom: 32px;
+	padding-top: 37px;
+}
+.portfolio_clients{
+	padding-right: 25px;
+	display: inline-block;
+	width: 215px;
+	text-align: center;
+}
+.portfolio_clients:last-child{
+	padding-right: 0;
+}
+.clients__speech{
+	padding-top: 22px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #202e3b;
+}
+.clients__speech-name{
+	color: #202e3b;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 13px;
 }
 /* FOOTER*/
 
