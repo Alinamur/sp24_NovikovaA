@@ -421,7 +421,7 @@ background-repeat: repeat-x;
 	padding-bottom: 20px;
 }
 .subheader_technics__text{
-	font-size-adjust: 16px;
+	font-size: 16px;
 	line-height: 20px;
 	color: #fff;
 	width: 600px;
@@ -475,6 +475,7 @@ background-repeat: repeat-x;
 }
 .catalog-list{
 	padding-top: 30px;
+	width: 640px;
 }
 .catalog{
 	height: 965px;
@@ -488,6 +489,10 @@ background-repeat: repeat-x;
 	box-sizing: border-box;
 	margin-right: 15px;
 	text-align: center;
+	margin-bottom: 15px;
+}
+.product-card:nth-child(odd){
+	margin-left: 0;
 }
 .product-card__name{
 	font-weight: bold;
@@ -532,7 +537,24 @@ background-repeat: repeat-x;
 	padding: 10px;
 	text-decoration: none;	
 }
-
+.pages{
+	display: inline-block;
+	text-decoration: none;
+}
+.pagination li{
+	padding: 2px 7px;
+	display: inline;
+	font-size: 16px;
+}
+.pagination a{
+	text-decoration: none;
+	color: #000;
+}
+.pagination li:hover{
+	background-color: #354b60;
+	border-radius: 3px;
+	color: #fff;
+}
 .sales{
 	height: 535px;
 	background-image: url(../img/sales_catalog.jpg);
