@@ -406,11 +406,11 @@ background-repeat: repeat-x;
 
 
 .subheader_technics{
+	position: relative;
 	padding-top: 30px;
 	height: 190px;
 	background-image: url(../img/subheader_portfolio.jpg);
 	background-position: center;
-	text-align: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -418,6 +418,7 @@ background-repeat: repeat-x;
 	color: #ffcd34;
 	font-size: 26px;
 	font-weight: normal;
+	padding-bottom: 20px;
 }
 .subheader_technics__text{
 	font-size-adjust: 16px;
@@ -425,9 +426,29 @@ background-repeat: repeat-x;
 	color: #fff;
 	width: 600px;
 }
+.subheader_technics__nav-call{
+	position: absolute;
+	top: 42px;
+	right: 195px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	color: #000;
+	background-color: #ffcd34;
+	padding: 15px 21px;
+	display: block;
+}
 
 .nav-call__text{
-
+	display: block;
+	position: absolute;
+	top: 103px;
+	right: 228px;
+	width: 210px;
+	text-align: left;
+	font-weight: normal;
+	font-size: 16px;
+	color: #fff;
 }
 
 
