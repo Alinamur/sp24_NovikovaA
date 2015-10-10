@@ -198,6 +198,10 @@ background-repeat: repeat-x;
 	color: #202e3b;
 	font-size: 18px;
 }
+.consult_form input:last-child:hover{
+	border: 1px solid #ffd966;
+	background-color: #ffd966;
+}
 
 .advantages{
 	height: 125px;
