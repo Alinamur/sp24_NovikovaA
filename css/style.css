@@ -837,13 +837,14 @@ background-repeat: repeat-x;
 }
 .contacts_order input{
 	display: block;
-	padding: 13px;
+	padding: 5px;
 	margin-bottom: 10px;
 	width: 280px;
 }
 .contacts_order{
 	float: right;
 }
+.contacts_order  inpuy
 .contacts_order__description{
 	height: 95px;
 }
