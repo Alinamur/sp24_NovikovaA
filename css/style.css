@@ -77,9 +77,10 @@ div{
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: bold;
+	border: 1px solid transparent;
 }
 .page-nav__link:active{
-	border: 1px solid #796e38;
+	
 	text-decoration: none;
 	padding: 10px 30px;
 	font-size: 16px;
@@ -353,6 +354,9 @@ background-repeat: repeat-x;
  	color: #fff;
  	padding: 0 15px;
 }
+.subheader_portfolio__link:hover{
+	text-decoration: none;
+}
 
 .wood{
 	height: 500px;
@@ -407,11 +411,22 @@ background-repeat: repeat-x;
 	background-color: #ffcd34;
 	text-decoration: none;
 	color: #202e3b;
-	padding: 13px 17px;
+	padding: 13px 25px;
 	font-weight: bold;
+	position: relative;
 }
-.details img{
-	padding-left: 5px;
+.details::after{
+	position: absolute;
+	content: "";
+	display: block;
+	background-image: url(../img/arrow_grey.png);
+	width: 13px;
+	height: 19px;
+	left: 107px;
+	bottom: 13px;
+}
+.details:hover{
+	background-color: #ffd966;
 }
 
 
@@ -464,13 +479,33 @@ background-repeat: repeat-x;
 	color: #fff;
 }
 
-
+.row{
+	overflow: hidden;
+}
+.column{
+	float: left;
+	margin: 1%;
+}
+.column:last-child{
+	margin-right: 0;
+}
+.column:first-child{
+	margin-left: 0;
+}
+.column.third:nth-child(3n){
+	margin-right: 0;
+}
+.column.third:nth-child(3n+1){
+	margin-left: 0;
+}
+.third{
+	width: 31%;
+}
 .technic-nav{
  display: inline-block;
 }
 .technic-nav__list{
 	list-style-type: none;
-	padding-right: 140px;
 }
 .technic-nav__img{
 	padding: 15px;
@@ -485,6 +520,39 @@ background-repeat: repeat-x;
 	color: #353535;
 	font-size: 16px;
 	line-height: 38px;
+	position: relative;
+}
+.technic-nav__item::before:hover{
+	position: absolute;
+	content: "";
+	background-image: url(../img/menu_arrow.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 7px;
+	height: 11px;
+}
+.download{
+	margin-top: 27px;
+}
+.btn-download{
+	padding: 11px 35px;
+	background-color: #354b60;
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+}
+.btn-download:hover{
+	background-color: #567999;
+}
+.btn-download::before{
+	position: absolute;
+	content: "";
+	background-image: url(../img/download.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 17px;
+	height: 18px;
+	left: 10px;
 }
 .catalog-list{
 	padding-top: 30px;
@@ -503,9 +571,6 @@ background-repeat: repeat-x;
 	margin-right: 15px;
 	text-align: center;
 	margin-bottom: 15px;
-}
-.product-card:nth-child(odd){
-	margin-left: 0;
 }
 .product-card__name{
 	font-weight: bold;
@@ -534,6 +599,22 @@ background-repeat: repeat-x;
 	font-size: 22px;
 	padding: 15px;
 }
+.sale{
+	position: relative;
+}
+.sale::before{
+	position: absolute;
+	content: "sale";
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	background-repeat: no-repeat;
+	width: 71px;
+	height: 69px;
+	background-image: url(../img/sale.png);
+	left: 230px;
+}
 .btn-rent{
 	font-size: 17px;
 	font-weight: normal;
@@ -541,6 +622,9 @@ background-repeat: repeat-x;
 	background-color: #f3c331;
 	padding: 10px;
 	text-decoration: none;
+}
+.btn-rent:hover{
+	background-color: #ffd966;
 }
 .btn-details{
 	font-size: 17px;
@@ -550,6 +634,9 @@ background-repeat: repeat-x;
 	padding: 10px;
 	text-decoration: none;	
 }
+.btn-details:hover{
+	background-color: #46617a;
+}
 .pages{
 	display: inline-block;
 	text-decoration: none;
@@ -558,6 +645,7 @@ background-repeat: repeat-x;
 	padding: 2px 7px;
 	display: inline;
 	font-size: 16px;
+	padding-bottom: 15px;
 }
 .pagination a{
 	text-decoration: none;
@@ -622,6 +710,9 @@ background-repeat: repeat-x;
 	background-color: #ffcd34;
 	padding: 15px 21px;
 }
+.nav-call:hover{
+	background-color: #ffd966;
+}
 
 .location{
 	height: 486px;
@@ -641,17 +732,41 @@ background-repeat: repeat-x;
 	text-align: left;
 }
 .telephone{
+	padding-left: 40px;
 	padding-top: 40px;
 	display: block;
 	font-weight: bold;
 	font-size: 18px;
 	padding-bottom: 22px;
+	position: relative;
+}
+.telephone::before{
+	position: absolute;
+	content: "";
+	display: block;
+	background-image: url(../img/phone_contacts.png);
+	height: 20px;
+	width: 20px;
+	left: 0px;
+	top: 40px;
 }
 .mail{
 	display: block;
 	font-weight: bold;
 	font-size: 18px;
 	padding-bottom: 25px;
+	position: relative;
+	padding-left: 40px;
+}
+.mail:before{
+	position: absolute;
+	content: "";
+	display: block;
+	background-image: url(../img/mail_contacts.png);
+	height: 17px;
+	width: 23px;
+	left: 0px;
+	top: 5px;
 }
 .contacts__consult{
 	width: 250px;
