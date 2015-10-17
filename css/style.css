@@ -32,9 +32,7 @@ div{
 input{
 	outline: none;
 }
-.submit{
-	cursor: pointer;
-}
+
 
 
 
@@ -201,6 +199,12 @@ background-repeat: repeat-x;
 	font-weight: bold;
 	font-size: 16px;
 }
+.consult_form input placeholder{
+	color: #fff;
+}
+::-webkit-input-placeholder {color:#fff;}
+::-moz-placeholder {color:#fff;}
+::-ms-input-placeholder {color:#fff;}
 .consult_form input:last-child{
 	border: 1px solid #ffcd34;
 	background-color: #ffcd34;
@@ -212,7 +216,9 @@ background-repeat: repeat-x;
 	border: 1px solid #ffd966;
 	background-color: #ffd966;
 }
-
+.consult_form input:last-child{
+	cursor: pointer;
+}
 .advantages{
 	height: 125px;
 	background-color: #fff;
@@ -844,7 +850,6 @@ background-repeat: repeat-x;
 .contacts_order{
 	float: right;
 }
-.contacts_order  inpuy
 .contacts_order__description{
 	height: 95px;
 }
