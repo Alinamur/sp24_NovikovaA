@@ -578,6 +578,9 @@ background-repeat: repeat-x;
 .subtitle{
 	padding: 15px 0 30px 0;
 }
+.container .technic-and-offers{
+	background-color: #f3f3f3;
+}
 .technic-nav__item{
 }
 .technic-nav__link{
@@ -620,11 +623,12 @@ background-repeat: repeat-x;
 .catalog-list{
 	padding-top: 30px;
 	width: 640px;
+	background-color: #f3f3f3;
 }
 .catalog-list .product-card:nth-child(3){
 	position: relative;
 }
-.catalog-list .product-card:nth-child(3)::before{
+.catalog-list .product-card:nth-child(3)::after{
 	position: absolute;
 	content: "";
 	font-size: 20px;
@@ -636,6 +640,7 @@ background-repeat: repeat-x;
 	height: 69px;
 	background-image: url(../img/new.png);
 	left: 230px;
+	bottom: 332px;
 }
 .new{
 	position: relative;
@@ -647,9 +652,16 @@ background-repeat: repeat-x;
 	right: 2px;
 	top: 10px;
 	color: #fff;
+	z-index: 100;
 }
 .catalog{
 	height: 965px;
+	background-color: #f3f3f3;
+}
+.catalog-list{
+	display: inline;
+	width: 650px;
+	float: right;
 	background-color: #f3f3f3;
 }
 .product-card{
@@ -662,6 +674,7 @@ background-repeat: repeat-x;
 	text-align: center;
 	margin-bottom: 15px;
 }
+
 .product-card__name{
 	font-weight: bold;
 	font-size: 21px;
@@ -700,11 +713,12 @@ background-repeat: repeat-x;
 	color: #fff;
 	transform: rotate(45deg);
 	top: 10px;
+	z-index: 100;
 }
 .sale{
 	position: relative;
 }
-.sale::before{
+.sale::after{
 	position: absolute;
 	content: "";
 	font-size: 20px;
@@ -716,6 +730,7 @@ background-repeat: repeat-x;
 	height: 69px;
 	background-image: url(../img/sale.png);
 	left: 230px;
+	bottom: 332px;
 }
 
 .btn-rent{
@@ -741,6 +756,7 @@ background-repeat: repeat-x;
 	background-color: #46617a;
 }
 .pages{
+	margin: 45px 0;
 	display: inline-block;
 	text-decoration: none;
 }
