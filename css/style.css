@@ -202,7 +202,7 @@ background-repeat: repeat-x;
 .consult_form input placeholder{
 	color: #fff;
 }
-::-webkit-input-placeholder {color:#fff;}
+.consult_title::-webkit-input-placeholder {color:#fff;}
 ::-moz-placeholder {color:#fff;}
 ::-ms-input-placeholder {color:#fff;}
 .consult_form input:last-child{
@@ -587,14 +587,12 @@ background-repeat: repeat-x;
 	line-height: 38px;
 	position: relative;
 }
-.technic-nav__item::before:hover{
-	position: absolute;
-	content: "";
+.technic-nav__item:hover{
 	background-image: url(../img/menu_arrow.png);
 	background-repeat: no-repeat;
-	display: block;
-	width: 7px;
-	height: 11px;
+	padding-left: 20px;
+	background-size: auto;
+	background-position-y: center;
 }
 .download{
 	margin-top: 27px;
